@@ -11,17 +11,17 @@ The queries used to get the data were:
 
 To get Pune city's data:
 
-`
+```
 SELECT year, avg_temp
 	FROM city_data
     WHERE city = 'Pune'
-`
+```
 
 To get global average data:
 
-`
+```
 SELECT *
 	FROM global_data 
-`
+```
 
 Observations and Trends in the data can be found in the [`Exploring Weather Trends`](https://github.com/ParthThakur/Exploring-Weather-Trends/blob/master/Explore%20Weather%20Trends.ipynb) jupyter notebook.
