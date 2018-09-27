@@ -13,7 +13,7 @@ To find nearest city in the database:
 
 ```
 SELECT city
-	FROM city_list
+    FROM city_list
     WHERE country = 'India'
 ```
 
@@ -21,7 +21,7 @@ To get Pune city's data:
 
 ```
 SELECT year, avg_temp
-	FROM city_data
+    FROM city_data
     WHERE city = 'Pune'
 ```
 
@@ -29,7 +29,7 @@ To get global average data:
 
 ```
 SELECT *
-	FROM global_data 
+    FROM global_data 
 ```
 
 The data was then downloaded in csv format and stored locally.
@@ -49,6 +49,6 @@ pandas.Series.rolling(window).mean()
 
 As we have time data, the best type of visualization is a line chart. Trends are very apparent in such a chart.
 
-The global average has a range of 7&#2816C to 10&#2816C
+The global average has a range of 7ºC to 10ºC. While the local city data has a range of 23ºC to 26ºC. Plotting both of them on one graoh would require a dual Y-axis chart which could be confusing. Hence, plotting them on two seperate charts, one below the other is the optimum option
 
 Observations and Trends in the data can be found in the [`Exploring Weather Trends`](https://github.com/ParthThakur/Exploring-Weather-Trends/blob/master/Explore%20Weather%20Trends.ipynb) jupyter notebook.
